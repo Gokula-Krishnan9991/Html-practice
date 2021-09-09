@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Demo on tables">
+
+    <title>Demo on tables in html5</title>
+
+</head>
+
+<body>
+
+    <h1>Product Listing:</h1>
+
+    <h3>Men's Clothing</h3>
+
+    <!--table tag used to create tables 
+
+        it has tr-represents row
+        and td represents column
+
+
+        the other method for creating table as follows
+
+        <table>
+            <caption>content</caption>
+            <thead>//content heading to the table</thead>
+
+            <tbody>//includes the other rows and columns contents</tbody>
+
+            <tfooter>includes the end of the content</tfooter>
+
+    -->
+
+
+    <!--border  level increases thickness of the border increases
+    cellpadding indicates help us to increase the cell space inside the cell
+    
+    while cellspacing indicates opposite to cellpadding outside the border cell
+
+    width=page width ,if the width percentage increases ,the table will adjust accordingly
+
+    
+-->
+    <table border="1" cellpadding='40px' width='40%'>
+
+        <!-- th represents heading of the column-->
+
+        <tr>
+            <th> Product ID </th>
+            <th> Product Name </th>
+            <th> Description </th>
+            <th> Buy Now </th>
+        </tr>
+
+        <tr>
+            <td> SKU10101 </td>
+            <td> T-Shirt </td>
+            <td> Made with fine 100% cotton </td>
+            <td><a href="#">Buy Now</a></td>
+        </tr>
+        <tr>
+            <td> SKU10202 </td>
+            <td> Pants </td>
+            <td> Slim and Straights cut Jeans.</td>
+            <td><a href="#">Buy Now</a></td>
+        </tr>
+
+        <tr>
+
+            <!--for merging column we use colspan ="//countcolumns"
+                for merging rows we use rowspan="//countrows"-->
+            <td colspan="4"> Product from <a href="https://www.amazon.com/" target="_blank">Amazon.com</a>
+
+        </tr>
+
+    </table>
+
+
+
+</body>
+
+</html>
